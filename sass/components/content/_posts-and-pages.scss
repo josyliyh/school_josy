@@ -1,0 +1,156 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+@media(min-width: 600px) {
+
+.home-wrap {
+    display: flex;
+    gap: 2em;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+	.home-left {
+		margin-right: 8%;
+	}
+
+	.home-left, .home-right {
+		display: inline-block;
+		width: 45%;
+		vertical-align: top;
+	}
+}
+
+
+@media only screen and (min-width: 800px) {
+.home-blog{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+}
+
+.home-blog h3 {
+	
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+		width: 100%;
+		margin: 0;
+		padding: 1em;
+		font-size: 1em;
+		text-align: center;
+		background: rgba(255,255,255,.8);
+}
+
+.home-blog  a {
+    position: relative;
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 300px;
+}
+@media only screen and (min-width: 600px) {
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.students article {
+    width: 48%;
+    margin: 0 0 3rem;
+}
+}
+
+
+.students article {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.student-tax img {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+
+.student-tax {
+	clear: both;
+    padding-top: 1em;
+}
+
+.tax-fwd-student-category .widget-area {
+	display: none;
+}
+
+@media only screen and (min-width: 800px) {
+span.cat-links, span.tags-links, span.comments-link {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+}
+// span.cat-links, span.tags-links, span.comments-link {
+//     display: block;
+// }
+
+.post a.post-thumbnail img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.student-tax {
+	padding-bottom: 200px;
+}
+.Staff h2 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.Staff {
+    margin-bottom: 3rem;
+}
+@media only screen and (min-width: 600px){
+.Staff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+	article {
+	width: 48%;
+    margin: 0;
+	}
+}
+.Staff h2 {
+    width: 100%;
+}
+
+}
+.Staff {
+    margin-bottom: 3rem;
+}
+
+
